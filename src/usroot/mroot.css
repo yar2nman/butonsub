@@ -60,6 +60,7 @@ body {
     color: rgb(224, 91, 25);
     font-size: 12px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .butonsub {
