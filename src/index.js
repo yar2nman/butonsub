@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Mroot from './usroot/Mroot'
+// import Mroot from './usroot/Mroot'
 
 // ReactDOM.render(
 //     <App />,
@@ -17,7 +17,7 @@ import Mroot from './usroot/Mroot'
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <Mroot />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,6 +1,5 @@
 body {
-    margin-top: 10px;
-    padding: 0;
+    padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #000;
@@ -10,10 +9,10 @@ body {
     justify-content: center;
 }
 
-
-
 .mroot {
     width: 300px;
+    padding-top: 5px;
+    padding-bottom: 15px;
     border: 5px;
     border-color: rgb(218, 215, 215);
     border-radius: 5px;
@@ -41,49 +40,7 @@ body {
 }
 
 
-
-.bcontainer {
-    margin-top: 10px;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.sbutton {
-    width: 10%;
-    height: 15px;
-    border: none;
-    border-radius: 25px;
-    background-color: #eae745;
-    color: rgb(224, 91, 25);
-    font-size: 12px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.butonsub {
-    width : 80%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ba {
-    font-size: xx-small;
-    align-self: flex-start;
-    justify-self: left;
-}
-.bb {
-    font-size: small;
-    align-self: flex-end;
-    justify-self: left;
-}
-.bc {
-    font-size: xx-small;
-    align-self: flex-start;
-    justify-self: left;
-}
+/*  */
 
 
 
@@ -100,4 +57,34 @@ body {
 .chartheader {
     font-size: 20px;
     font-weight: bolder;
+}
+
+.butcont {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bta {
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    border-style: none;
+
+}
+
+.btb {
+    background-color: #98eb34;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    border-style: none;
 }
